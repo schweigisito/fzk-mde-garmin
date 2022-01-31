@@ -32,7 +32,7 @@ Type=0x032,2
 ; -----------
 ; land
 Type=0x03a,3
-; grass, , gardens
+; grass, meadow, gardens
 Type=0x017,3
 ; residential
 Type=0x002,4
@@ -771,7 +771,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #a5cc6c"
+"1 c #9cd646"
 [end]
 
 
@@ -833,7 +833,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #acd39a"
+"1 c #9ad3a2"
 [end]
 
 
@@ -2103,7 +2103,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #a5cc6c"
+"1 c #9cd646"
 [end]
 
 
@@ -2165,7 +2165,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #a5cc6c"
+"1 c #9cd646"
 [end]
 
 
@@ -9255,7 +9255,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="3 3 2 1"   Colormode=16
-"!	c #a5cc6c"
+"!	c #9cd646"
 "  	c none"
 "!!!"
 "! !"
