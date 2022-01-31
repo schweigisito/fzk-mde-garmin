@@ -771,7 +771,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #9cd646"
+"1 c #90d824"
 [end]
 
 
@@ -833,7 +833,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #9ad3a2"
+"1 c #78d3b0"
 [end]
 
 
@@ -2103,7 +2103,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #9cd646"
+"1 c #90d824"
 [end]
 
 
@@ -2165,7 +2165,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #9cd646"
+"1 c #90d824"
 [end]
 
 
@@ -9255,7 +9255,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="3 3 2 1"   Colormode=16
-"!	c #9cd646"
+"!	c #90d824"
 "  	c none"
 "!!!"
 "! !"
