@@ -771,7 +771,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #90d824"
+"1 c #9cd646"
 [end]
 
 
@@ -833,7 +833,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #64d16f"
+"1 c #9ad3a2"
 [end]
 
 
@@ -2103,7 +2103,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #90d824"
+"1 c #9cd646"
 [end]
 
 
@@ -2165,7 +2165,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 Xpm="0 0 1 0"
-"1 c #90d824"
+"1 c #9cd646"
 [end]
 
 
@@ -2813,7 +2813,7 @@ CustomColor=No
 [_line]
 Type=0x10101
 UseOrientation=Y
-LineWidth=1
+LineWidth=2
 Xpm="0 0 1 0"
 "1 c #4494d7"
 String1=0x00,Stream
@@ -2993,7 +2993,7 @@ Xpm="32 2 2  1"
 "! c #1d1d1d"
 "  c none"
 "!!!!!   !!!!!   !!!!!   !!!!!   "
-"                                "
+"!!!!!   !!!!!   !!!!!   !!!!!   "
 ;12345678901234567890123456789012
 String1=0x00,Track/Dirt Road (4,5)
 String2=0x01,Track/Dirt Road (4,5)
@@ -3308,7 +3308,7 @@ Type=0x10e05
 UseOrientation=N
 LineWidth=1
 Xpm="0 0 1 0"
-"1 c #942a2a"
+"1 c #1d1d1d"
 String1=0x00,Footpath
 String2=0x01,Footpath
 String3=0x02,Fußweg
@@ -3326,7 +3326,7 @@ Xpm="32 2 2  1"
 "! c #1d1d1d"
 "  c none"
 "!!  !!  !!  !!  !!  !!  !!  !!  "
-"                                "
+"!!  !!  !!  !!  !!  !!  !!  !!  "
 ;12345678901234567890123456789012
 String1=0x00,Path
 String2=0x01,Path
@@ -3341,7 +3341,7 @@ CustomColor=No
 [_line]
 Type=0x10e07
 UseOrientation=N
-LineWidth=2
+LineWidth=3
 Xpm="0 0 1 0"
 "1 c #404040"
 String1=0x00,Track/Dirt Road (1)
@@ -3357,7 +3357,7 @@ CustomColor=No
 [_line]
 Type=0x10e08
 UseOrientation=N
-LineWidth=1
+LineWidth=2
 Xpm="0 0 1 0"
 "1 c #1d1d1d"
 String1=0x00,Track/Dirt Road (n.a,2,3)
@@ -3537,7 +3537,7 @@ Xpm="32 2 2  1"
 "! c #C04C50"
 "  c none"
 "  !!  !!  !!  !!  !!  !!  !!  !!"
-"                                "
+"  !!  !!  !!  !!  !!  !!  !!  !!"
 ;12345678901234567890123456789012
 String1=0x00,Path (restricted)
 String2=0x01,Path (restricted)
@@ -3637,7 +3637,7 @@ CustomColor=No
 [_line]
 Type=0x10e18
 UseOrientation=N
-LineWidth=2
+LineWidth=3
 Xpm="0 0 1 0"
 "1 c #1d1d1d"
 String1=0x00,Track/Dirt Road (n.a,2,3)
@@ -3738,7 +3738,7 @@ Xpm="32 2 2  1"
 "! c #BA4A4E"
 "  c none"
 "!!!!!   !!!!!   !!!!!   !!!!!   "
-"                                "
+"!!!!!   !!!!!   !!!!!   !!!!!   "
 ;12345678901234567890123456789012
 String1=0x00,Track/Dirt Road (4,5) (restricted)
 String2=0x01,Track/Dirt Road (4,5) (restricted)
@@ -9255,7 +9255,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
 DayXpm="3 3 2 1"   Colormode=16
-"!	c #90d824"
+"!	c #9cd646"
 "  	c none"
 "!!!"
 "! !"
