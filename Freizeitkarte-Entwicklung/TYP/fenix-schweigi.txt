@@ -2886,7 +2886,7 @@ LineWidth=1
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FFCFCF"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Residential Street (restricted)
 String2=0x01,Residential Street (restricted)
 String3=0x02,Wohngebietsstraße (Eingeschränkt)
@@ -2904,7 +2904,7 @@ LineWidth=1
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FEFEFE"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Unclassified Road (Narrow)
 String2=0x01,Unclassified Road (Narrow)
 String3=0x02,Nebenstraße
@@ -2922,7 +2922,7 @@ LineWidth=1
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FEFEFE"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Service Road
 String2=0x01,Service Road
 String3=0x02,Erschließungsstraße
@@ -3236,7 +3236,7 @@ LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #DDDDDD"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Unknown Street
 String2=0x01,Unknown Street
 String3=0x02,Straße unbekannter Art
@@ -3254,7 +3254,7 @@ LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F6D4D4"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Unknown Street (restricted)
 String2=0x01,Unknown Street (restricted)
 String3=0x02,Straße unbekannter Art (Eingeschränkt)
@@ -3308,7 +3308,7 @@ Type=0x10e05
 UseOrientation=N
 LineWidth=1
 Xpm="0 0 1 0"
-"1 c #1d1d1d"
+"1 c #942a2a"
 String1=0x00,Footpath
 String2=0x01,Footpath
 String3=0x02,Fußweg
@@ -3343,7 +3343,7 @@ Type=0x10e07
 UseOrientation=N
 LineWidth=3
 Xpm="0 0 1 0"
-"1 c #404040"
+"1 c #000000"
 String1=0x00,Track/Dirt Road (1)
 String2=0x01,Track/Dirt Road (1)
 String3=0x02,Feld- / Waldweg (1)
@@ -3395,7 +3395,7 @@ LineWidth=1
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F89800"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,freeway
 String2=0x01,freeway
 String3=0x02,Autobahn
@@ -3413,7 +3413,7 @@ LineWidth=1
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F8CC00"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Highway
 String2=0x01,Highway
 String3=0x02,Bundesstraße
@@ -3450,7 +3450,7 @@ LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F8FC00"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Secondary Road
 String2=0x01,Secondary Road
 String3=0x02,Landesstraße
@@ -3468,7 +3468,7 @@ LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FFFFD5"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Country Road
 String2=0x01,Country Road
 String3=0x02,Kreisstraße
@@ -3936,7 +3936,7 @@ LineWidth=3
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F89800"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,freeway
 String2=0x01,freeway
 String3=0x02,Autobahn
@@ -3954,7 +3954,7 @@ LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F89800"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,freeway
 String2=0x01,freeway
 String3=0x02,Autobahn
@@ -3972,7 +3972,7 @@ LineWidth=3
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F8CC00"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Highway (like freeway)
 String2=0x01,Highway (like freeway)
 String3=0x02,Bundesstraße (wie Autobahn)
@@ -3990,7 +3990,7 @@ LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F8CC00"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Highway (like freeway)
 String2=0x01,Highway (like freeway)
 String3=0x02,Bundesstraße (wie Autobahn)
@@ -4008,7 +4008,7 @@ LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F8CC00"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Highway
 String2=0x01,Highway
 String3=0x02,Bundesstraße
@@ -4026,7 +4026,7 @@ LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F8CC00"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Highway
 String2=0x01,Highway
 String3=0x02,Bundesstraße
@@ -4044,7 +4044,7 @@ LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F8FC00"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,secondary road
 String2=0x01,secondary road
 String3=0x02,Landesstraße
@@ -4062,7 +4062,7 @@ LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F8FC00"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,secondary road
 String2=0x01,secondary road
 String3=0x02,Landesstraße
@@ -4080,7 +4080,7 @@ LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FFFFD5"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Country Road
 String2=0x01,Country Road
 String3=0x02,Kreisstraße
@@ -4098,7 +4098,7 @@ LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FFFFD5"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Country Road
 String2=0x01,Country Road
 String3=0x02,Kreisstraße
@@ -4152,7 +4152,7 @@ LineWidth=3
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F6D4D4"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Residential Road (restricted)
 String2=0x01,Residential Road (restricted)
 String3=0x02,Wohngebietsstraße (Eingeschränkt)
@@ -4170,7 +4170,7 @@ LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F6D4D4"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Residential Road (restricted)
 String2=0x01,Residential Road (restricted)
 String3=0x02,Wohngebietsstraße (Eingeschränkt)
@@ -4206,7 +4206,7 @@ LineWidth=1
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F6D4D4"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Unclassified Road (restricted)
 String2=0x01,Unclassified Road (restricted)
 String3=0x02,Nebenstraße (Eingeschränkt)
@@ -4224,7 +4224,7 @@ LineWidth=3
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F6D4D4"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Unclassified Road (restricted)
 String2=0x01,Unclassified Road (restricted)
 String3=0x02,Nebenstraße (Eingeschränkt)
@@ -4242,7 +4242,7 @@ LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F6D4D4"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Unclassified Road (restricted)
 String2=0x01,Unclassified Road (restricted)
 String3=0x02,Nebenstraße (Eingeschränkt)
@@ -4260,7 +4260,7 @@ LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #FEFEFE"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Service Road
 String2=0x01,Service Road
 String3=0x02,Erschließungsstraße
@@ -4278,7 +4278,7 @@ LineWidth=1
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F6D4D4"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Service Road (restricted)
 String2=0x01,Service Road (restricted)
 String3=0x02,Erschließungsstraße (Eingeschränkt)
@@ -4296,7 +4296,7 @@ LineWidth=3
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F6D4D4"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Service Road (restricted)
 String2=0x01,Service Road (restricted)
 String3=0x02,Erschließungsstraße (Eingeschränkt)
@@ -4314,7 +4314,7 @@ LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F6D4D4"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Service Road (restricted)
 String2=0x01,Service Road (restricted)
 String3=0x02,Erschließungsstraße (Eingeschränkt)
@@ -4657,7 +4657,7 @@ LineWidth=5
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F89800"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,freeway
 String2=0x01,freeway
 String3=0x02,Autobahn
@@ -4675,7 +4675,7 @@ LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F8CC00"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Highway (like freeway)
 String2=0x01,Highway (like freeway)
 String3=0x02,Bundesstraße (wie Autobahn)
@@ -4693,7 +4693,7 @@ LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F8CC00"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Highway
 String2=0x01,Highway
 String3=0x02,Bundesstraße
@@ -4711,7 +4711,7 @@ LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F8FC00"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Secondary Road
 String2=0x01,Secondary Road
 String3=0x02,Landesstraße
@@ -4765,7 +4765,7 @@ LineWidth=3
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #cccccc"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Service Road
 String2=0x01,Service Road
 String3=0x02,Erschließungsstraße
@@ -5465,7 +5465,7 @@ LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F8CC00"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Highway
 String2=0x01,Highway
 String3=0x02,Bundesstraße (wie Autobahn)
@@ -5483,7 +5483,7 @@ LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F8CC00"
-"2 c #404040"
+"2 c #000000"
 String1=0x00,Highway
 String2=0x01,Highway
 String3=0x02,Bundesstraße
