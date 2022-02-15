@@ -3333,7 +3333,7 @@ String2=0x01,Path
 String3=0x02,Schmaler Weg / Pfad
 String4=0x04,Path
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3349,7 +3349,7 @@ String2=0x01,Track/Dirt Road (1)
 String3=0x02,Feld- / Waldweg (1)
 String4=0x04,Track/Dirt Road (1)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3365,7 +3365,7 @@ String2=0x01,Track/Dirt Road (n.a,2,3)
 String3=0x02,Feld- / Waldweg (ohne,2,3)
 String4=0x04,Track/Dirt Road (n.a,2,3)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3383,7 +3383,7 @@ String2=0x01,Track/Dirt Road (1)
 String3=0x02,Feld- / Waldweg (1)
 String4=0x04,Track/Dirt Road (1)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3438,7 +3438,7 @@ String2=0x01,path
 String3=0x02,Schmaler Weg / Pfad
 String4=0x04,path
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3456,7 +3456,7 @@ String2=0x01,Secondary Road
 String3=0x02,Landesstraße
 String4=0x04,Secondary Road
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3490,7 +3490,7 @@ String2=0x01,dirt road (restricted)
 String3=0x02,Feldweg (Eingeschränkt)
 String4=0x04,dirt road (restricted)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3506,7 +3506,7 @@ String2=0x01,CycleFootway
 String3=0x02,RadFußweg
 String4=0x04,CycleFootway
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3525,7 +3525,7 @@ String2=0x01,Path (restricted)
 String3=0x02,Schmaler Weg / Pfad (Eingeschränkt)
 String4=0x04,Path (restricted)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3544,7 +3544,7 @@ String2=0x01,Path (restricted)
 String3=0x02,Schmaler Weg / Pfad (Eingeschränkt)
 String4=0x04,Path (restricted)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3562,7 +3562,7 @@ String2=0x01,Track/Dirt Road (1) (restricted)
 String3=0x02,Feld- / Waldweg (1) (Eingeschränkt)
 String4=0x04,Track/Dirt Road (1) (restricted)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3578,7 +3578,7 @@ String2=0x01,Track/Dirt Road (1) (restricted)
 String3=0x02,Feld- / Waldweg (1) (Eingeschränkt)
 String4=0x04,Track/Dirt Road (1) (restricted)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3594,7 +3594,7 @@ String2=0x01,Track/Dirt Road (n.a,2,3) (restricted)
 String3=0x02,Feld- / Waldweg (ohne,2,3) (Eingeschränkt)
 String4=0x04,Track/Dirt Road (n.a,2,3) (restricted)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3610,7 +3610,7 @@ String2=0x01,Track/Dirt Road (n.a,2,3) (restricted)
 String3=0x02,Feld- / Waldweg (ohne,2,3) (Eingeschränkt)
 String4=0x04,Track/Dirt Road (n.a,2,3) (restricted)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3629,7 +3629,7 @@ String2=0x01,Track/Dirt Road (4,5) (restricted)
 String3=0x02,Feld- / Waldweg (4,5) (Eingeschränkt)
 String4=0x04,Track/Dirt Road (4,5) (restricted)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3645,7 +3645,7 @@ String2=0x01,Track/Dirt Road (n.a,2,3)
 String3=0x02,Feld- / Waldweg (ohne,2,3)
 String4=0x04,Track/Dirt Road (n.a,2,3)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3745,7 +3745,7 @@ String2=0x01,Track/Dirt Road (4,5) (restricted)
 String3=0x02,Feld- / Waldweg (4,5) (Eingeschränkt)
 String4=0x04,Track/Dirt Road (4,5) (restricted)
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -3888,7 +3888,7 @@ String2=0x01,Cycleway
 String3=0x02,Radweg
 String4=0x04,Cycleway
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
