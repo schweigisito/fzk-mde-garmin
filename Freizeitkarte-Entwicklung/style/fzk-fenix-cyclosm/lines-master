@@ -1,4 +1,4 @@
-﻿# ---------------------------------------
+# ---------------------------------------
 # Zweck   : mkgmap-Regeln fuer Linien
 # Version : 0.1 - 23.09.2011
 # Version : 0.2 - 03.10.2011: Adresssuche
@@ -412,7 +412,7 @@ highway = *
    surface = gravel  | surface = fine_gravel | surface = mud |
    surface = wood    | surface = pebblestone | surface = sand |
    surface = unpaved |
-   mtb:scale>0 | mtb:scale='0+' |
+   mtb:scale>=0  |
    tracktype ~ 'grade[2-6]' |
    smoothness ~ '.*(bad | very_bad | horrible | very_horrible | impassable)' |
    sac_scale = * |
@@ -1312,6 +1312,8 @@ highway = path & keinrouting = yes [0x010e12 resolution 23-23]
 # Allgemein oeffentlich
 # 0x010e0c = Bitmap 2 (breit, NoLabel)
 # 0x010e06 = Bitmap 2 (schmal, nur ein Pixel gefuellt, NoLabel)
+highway = path  & mtb:scale = * & (surface = * | surface != * ) { set name = 'S${mtb:scale}(S${mtb:scale:uphill})' | 'S${mtb:scale}' } [0x010e0c resolution 24 continue]
+highway = path  & mtb:scale = * & (surface = * | surface != * ) { set name = 'S${mtb:scale}(S${mtb:scale:uphill})' | 'S${mtb:scale}' } [0x010e06 resolution 23-23]
 highway = path  & (area != * | area = no) [0x010e0c resolution 24 continue]
 highway = path  & (area != * | area = no) [0x010e06 resolution 23-23]
 
