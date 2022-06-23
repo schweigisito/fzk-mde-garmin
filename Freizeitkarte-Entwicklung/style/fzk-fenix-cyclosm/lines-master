@@ -584,30 +584,30 @@ highway = footway | highway = elevator | highway = steps | highway = pedestrian 
 # Alpine Trails; T4 - T6 expluded from routing for security reasons; Exception: EXTENDEDROUTING set
 #ifdef EXTENDEDROUTING
   # T1
-  highway = path & sac_scale = hiking                     {set highway = sacscalet1;        set name = '${name} (T1)' | '$__ALPINETRAIL__ (T1)' }
+  highway = path & sac_scale = hiking                     {set highway = sacscalet1;        set name = '${name} (T1) S${mtb:scale}(S${mtb:scale:uphill})' | '${name} (T1) S${mtb:scale}' | '${name} (T1)' | '$__ALPINETRAIL__ (T1) S${mtb:scale}(S${mtb:scale:uphill})' | '$__ALPINETRAIL__ (T1) S${mtb:scale}' | '$__ALPINETRAIL__ (T1)' }
   # T2
-  highway = path & sac_scale = mountain_hiking            {set highway = sacscalet2t3;      set name = '${name} (T2)' | '$__ALPINETRAIL__ (T2)' }
+  highway = path & sac_scale = mountain_hiking            {set highway = sacscalet2t3;      set name = '${name} (T2) S${mtb:scale}(S${mtb:scale:uphill})' | '${name} (T2) S${mtb:scale}' | '${name} (T2)' | '$__ALPINETRAIL__ (T2) S${mtb:scale}(S${mtb:scale:uphill})' | '$__ALPINETRAIL__ (T2) S${mtb:scale}' | '$__ALPINETRAIL__ (T2)' }
   # T3
-  highway = path & sac_scale = demanding_mountain_hiking  {set highway = sacscalet2t3;      set name = '${name} (T3)' | '$__ALPINETRAIL__ (T3)' }
+  highway = path & sac_scale = demanding_mountain_hiking  {set highway = sacscalet2t3;      set name = '${name} (T3) S${mtb:scale}(S${mtb:scale:uphill})' | '${name} (T3) S${mtb:scale}' | '${name} (T3)' | '$__ALPINETRAIL__ (T3) S${mtb:scale}(S${mtb:scale:uphill})' | '$__ALPINETRAIL__ (T3) S${mtb:scale}' | '$__ALPINETRAIL__ (T3)' }
   # T4
-  highway = path & sac_scale = alpine_hiking              {set highway = sacscalet4t5t6;    set name = '${name} (T4)' | '$__ALPINETRAIL__ (T4)' }
+  highway = path & sac_scale = alpine_hiking              {set highway = sacscalet4t5t6;    set name = '${name} (T4) S${mtb:scale}(S${mtb:scale:uphill})' | '${name} (T4) S${mtb:scale}' | '${name} (T4)' | '$__ALPINETRAIL__ (T4) S${mtb:scale}(S${mtb:scale:uphill})' | '$__ALPINETRAIL__ (T4) S${mtb:scale}' | '$__ALPINETRAIL__ (T4)' }
   # T5
-  highway = path & sac_scale = demanding_alpine_hiking    {set highway = sacscalet4t5t6;    set name = '${name} (T5)' | '$__ALPINETRAIL__ (T5)' }
+  highway = path & sac_scale = demanding_alpine_hiking    {set highway = sacscalet4t5t6;    set name = '${name} (T5) S${mtb:scale}(S${mtb:scale:uphill})' | '${name} (T5) S${mtb:scale}' | '${name} (T5)' | '$__ALPINETRAIL__ (T5) S${mtb:scale}(S${mtb:scale:uphill})' | '$__ALPINETRAIL__ (T5) S${mtb:scale}' | '$__ALPINETRAIL__ (T5)' }
   # T6
-  highway = path & sac_scale = difficult_alpine_hiking    {set highway = sacscalet4t5t6;    set name = '${name} (T6)' | '$__ALPINETRAIL__ (T6)' }
+  highway = path & sac_scale = difficult_alpine_hiking    {set highway = sacscalet4t5t6;    set name = '${name} (T6) S${mtb:scale}(S${mtb:scale:uphill})' | '${name} (T6) S${mtb:scale}' | '${name} (T6)' | '$__ALPINETRAIL__ (T6) S${mtb:scale}(S${mtb:scale:uphill})' | '$__ALPINETRAIL__ (T6) S${mtb:scale}' | '$__ALPINETRAIL__ (T6)' }
 #else
   # T1
-  highway = path & sac_scale = hiking                     {set highway = sacscalet1;        set name = '${name} (T1)' | '$__ALPINETRAIL__ (T1)' }
+  highway = path & sac_scale = hiking                     {set highway = sacscalet1;        set name = '${name} (T1) S${mtb:scale}(S${mtb:scale:uphill})' | '${name} (T1) S${mtb:scale}' | '${name} (T1)' | '$__ALPINETRAIL__ (T1) S${mtb:scale}(S${mtb:scale:uphill})' | '$__ALPINETRAIL__ (T1) S${mtb:scale}' | '$__ALPINETRAIL__ (T1)' }
   # T2
-  highway = path & sac_scale = mountain_hiking            {set highway = sacscalet2t3;      set name = '${name} (T2)' | '$__ALPINETRAIL__ (T2)' }
+  highway = path & sac_scale = mountain_hiking            {set highway = sacscalet2t3;      set name = '${name} (T2) S${mtb:scale}(S${mtb:scale:uphill})' | '${name} (T2) S${mtb:scale}' | '${name} (T2)' | '$__ALPINETRAIL__ (T2) S${mtb:scale}(S${mtb:scale:uphill})' | '$__ALPINETRAIL__ (T2) S${mtb:scale}' | '$__ALPINETRAIL__ (T2)' }
   # T3
-  highway = path & sac_scale = demanding_mountain_hiking  {set highway = sacscalet2t3;      set name = '${name} (T3)' | '$__ALPINETRAIL__ (T3)' }
+  highway = path & sac_scale = demanding_mountain_hiking  {set highway = sacscalet2t3;      set name = '${name} (T3) S${mtb:scale}(S${mtb:scale:uphill})' | '${name} (T3) S${mtb:scale}' | '${name} (T3)' | '$__ALPINETRAIL__ (T3) S${mtb:scale}(S${mtb:scale:uphill})' | '$__ALPINETRAIL__ (T3) S${mtb:scale}' | '$__ALPINETRAIL__ (T3)' }
   # T4
-  highway = path & sac_scale = alpine_hiking              {set highway = sacscalet4t5t6;    set name = '${name} (T4)' | '$__ALPINETRAIL__ (T4)'; set access = no; set motorcar = no; set bicycle = no; set foot = no}
+  highway = path & sac_scale = alpine_hiking              {set highway = sacscalet4t5t6;    set name = '${name} (T4) S${mtb:scale}(S${mtb:scale:uphill})' | '${name} (T4) S${mtb:scale}' | '${name} (T4)' | '$__ALPINETRAIL__ (T4) S${mtb:scale}(S${mtb:scale:uphill})' | '$__ALPINETRAIL__ (T4) S${mtb:scale}' | '$__ALPINETRAIL__ (T4)' }; set access = no; set motorcar = no; set bicycle = no; set foot = no}
   # T5
-  highway = path & sac_scale = demanding_alpine_hiking    {set highway = sacscalet4t5t6;    set name = '${name} (T5)' | '$__ALPINETRAIL__ (T5)'; set access = no; set motorcar = no; set bicycle = no; set foot = no}
+  highway = path & sac_scale = demanding_alpine_hiking    {set highway = sacscalet4t5t6;    set name = '${name} (T5) S${mtb:scale}(S${mtb:scale:uphill})' | '${name} (T5) S${mtb:scale}' | '${name} (T5)' | '$__ALPINETRAIL__ (T5) S${mtb:scale}(S${mtb:scale:uphill})' | '$__ALPINETRAIL__ (T5) S${mtb:scale}' | '$__ALPINETRAIL__ (T5)' }; set access = no; set motorcar = no; set bicycle = no; set foot = no}
   # T6
-  highway = path & sac_scale = difficult_alpine_hiking    {set highway = sacscalet4t5t6;    set name = '${name} (T6)' | '$__ALPINETRAIL__ (T6)'; set access = no; set motorcar = no; set bicycle = no; set foot = no}
+  highway = path & sac_scale = difficult_alpine_hiking    {set highway = sacscalet4t5t6;    set name = '${name} (T6) S${mtb:scale}(S${mtb:scale:uphill})' | '${name} (T6) S${mtb:scale}' | '${name} (T6)' | '$__ALPINETRAIL__ (T6) S${mtb:scale}(S${mtb:scale:uphill})' | '$__ALPINETRAIL__ (T6) S${mtb:scale}' | '$__ALPINETRAIL__ (T6)' }; set access = no; set motorcar = no; set bicycle = no; set foot = no}
 #endif
 
 # access
