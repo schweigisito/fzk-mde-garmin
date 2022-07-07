@@ -4497,7 +4497,7 @@ String2=0x01,Alpine Trail T3/T4
 String3=0x02,Bergwanderweg T3/T4
 String4=0x04,Alpine Trail T3/T4
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -4516,7 +4516,7 @@ String2=0x01,Alpine Trail T5/T6
 String3=0x02,Alpinwanderweg T5/T6
 String4=0x04,Alpine Trail T5/T6
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -4535,7 +4535,7 @@ String2=0x01,Alpine Trail T1/T2
 String3=0x02,Wanderweg T1/T2
 String4=0x04,Alpine Trail T1/T2
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -4553,7 +4553,7 @@ String2=0x01,Alpine Trail T3/T4
 String3=0x02,Bergwanderweg T3/T4
 String4=0x04,Alpine Trail T3/T4
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -4571,7 +4571,7 @@ String2=0x01,Alpine Trail T5/T6
 String3=0x02,Alpinwanderweg T5/T6
 String4=0x04,Alpine Trail T5/T6
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -4589,7 +4589,7 @@ String2=0x01,Alpine Trail T1/T2
 String3=0x02,Wanderweg T1/T2
 String4=0x04,Alpine Trail T1/T2
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -5816,7 +5816,7 @@ String2=0x01,Hiking Trail T1
 String3=0x02,Wanderweg T1
 String4=0x04,Hiking Trail T1
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -5836,7 +5836,7 @@ String2=0x01,Hiking Trail T1
 String3=0x02,Wanderweg T1
 String4=0x04,Hiking Trail T1
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -5859,7 +5859,7 @@ String2=0x01,Mountain Trail T2/T3
 String3=0x02,Bergwanderweg T2/T3
 String4=0x04,Mountain Trail T2/T3
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -5879,7 +5879,7 @@ String2=0x01,Mountain Trail T2/T3
 String3=0x02,Bergwanderweg T2/T3
 String4=0x04,Mountain Trail T2/T3
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -5902,7 +5902,7 @@ String2=0x01,Alpine Trail T4-T6
 String3=0x02,Alpiner Weg T4-T6
 String4=0x04,Alpine Trail T4-T6
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
@@ -5922,7 +5922,7 @@ String2=0x01,Alpine Trail T4-T6
 String3=0x02,Alpiner Weg T4-T6
 String4=0x04,Alpine Trail T4-T6
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
+FontStyle=NormalFont
 CustomColor=No
 [end]
 
