@@ -5,6 +5,7 @@
 # $ bash < BUILD
 
 export REGION=BAYERN
+#export REGION=ALPS
 export CORES=4
 export RAM=4096
 ./mt.pl create Freizeitkarte_$REGION
