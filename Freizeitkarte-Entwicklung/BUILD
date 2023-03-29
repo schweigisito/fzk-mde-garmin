@@ -7,7 +7,7 @@
 export REGION=BAYERN
 #export REGION=ALPS
 export CORES=8
-export RAM=24576
+export RAM=32768
 ./mt.pl create Freizeitkarte_$REGION
 ./mt.pl --downloadbar fetch_osm Freizeitkarte_$REGION
 ./mt.pl --downloadbar fetch_ele --ele=10 Freizeitkarte_$REGION
