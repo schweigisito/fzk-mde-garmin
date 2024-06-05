@@ -7,6 +7,8 @@
 export REGION=BAYERN
 #export REGION=ALPS
 #export REGION=NOR
+#export REGION=ESP
+#export REGION=DEU
 
 export CORES=8
 export RAM=32768
