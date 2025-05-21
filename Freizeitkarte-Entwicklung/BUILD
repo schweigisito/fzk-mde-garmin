@@ -9,6 +9,7 @@ export REGION=BAYERN
 #export REGION=NOR
 #export REGION=ESP
 #export REGION=DEU
+#xport REGION=OBERFRANKEN
 
 export CORES=8
 export RAM=49152

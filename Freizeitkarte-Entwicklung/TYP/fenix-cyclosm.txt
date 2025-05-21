@@ -3322,11 +3322,13 @@ CustomColor=No
 [_line]
 Type=0x10e06
 UseOrientation=Y
-Xpm="32 2 2  1"
+Xpm="32 4 2  1"
 "! c #1d1d1d"
 "  c none"
-"!!  !!  !!  !!  !!  !!  !!  !!  "
-"!!  !!  !!  !!  !!  !!  !!  !!  "
+"!!!!!!  !!!!!!  !!!!!!  !!!!!!  "
+"!!!!!!  !!!!!!  !!!!!!  !!!!!!  "
+"!!!!!!  !!!!!!  !!!!!!  !!!!!!  "
+"!!!!!!  !!!!!!  !!!!!!  !!!!!!  "
 ;12345678901234567890123456789012
 String1=0x00,Path
 String2=0x01,Path
@@ -3341,7 +3343,7 @@ CustomColor=No
 [_line]
 Type=0x10e07
 UseOrientation=N
-LineWidth=3
+LineWidth=4
 Xpm="0 0 1 0"
 "1 c #000000"
 String1=0x00,Track/Dirt Road (1)
@@ -3357,7 +3359,7 @@ CustomColor=No
 [_line]
 Type=0x10e08
 UseOrientation=N
-LineWidth=2
+LineWidth=4
 Xpm="0 0 1 0"
 "1 c #1d1d1d"
 String1=0x00,Track/Dirt Road (n.a,2,3)
@@ -3373,7 +3375,7 @@ CustomColor=No
 [_line]
 Type=0x10e09
 UseOrientation=Y
-LineWidth=1
+LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
 "1 c #F0F0F0"
@@ -3427,11 +3429,13 @@ CustomColor=No
 [_line]
 Type=0x10e0c
 UseOrientation=N
-Xpm="32 2 2  1"
+Xpm="32 4 2  1"
 "! c #1d1d1d"
 "  c none"
-"!!!!!   !!!!!   !!!!!   !!!!!   "
-"!!!!!   !!!!!   !!!!!   !!!!!   "
+"!!!!!!  !!!!!!  !!!!!!  !!!!!!  "
+"!!!!!!  !!!!!!  !!!!!!  !!!!!!  "
+"!!!!!!  !!!!!!  !!!!!!  !!!!!!  "
+"!!!!!!  !!!!!!  !!!!!!  !!!!!!  "
 ;12345678901234567890123456789012
 String1=0x00,path
 String2=0x01,path
