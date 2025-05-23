@@ -35,9 +35,7 @@ export RAM=60000
 ./mt.pl --ram=$RAM --cores=$CORES join Freizeitkarte_$REGION
 ./mt.pl --ram=$RAM --cores=$CORES --language=de split Freizeitkarte_$REGION
 
-./mt.pl --ram=$RAM --cores=$CORES --language=de --typfile=$TYP --style=$STYLE --dempath=${DEM} --demtype=1 build Freizeitkarte_$REGION DWINTERSPORT DEXTENDEDROUTING DT36ROUTING DKULTURLAND DTRIGMARK
-./mt.pl --ram=$RAM --cores=$CORES --language=de --typfile=$TYP --style=$STYLE --dempath=${DEM} --demtype=1 gmap Freizeitkarte_$REGION DWINTERSPORT DEXTENDEDROUTING DT36ROUTING DKULTURLAND DTRIGMARK
-./mt.pl --ram=$RAM --cores=$CORES --language=de --typfile=$TYP --style=$STYLE --dempath=${DEM} --demtype=1 gmapsupp Freizeitkarte_$REGION DWINTERSPORT DEXTENDEDROUTING DT36ROUTING DKULTURLAND DTRIGMARK
+./mt.pl --ram=$RAM --cores=$CORES --language=de --typfile=$TYP --style=$STYLE --dempath=${DEM} --demtype=1 build Freizeitkarte_$REGION DWINTERSPORT DEXTENDEDROUTING DT36ROUTING DTRIGMARK
+./mt.pl --ram=$RAM --cores=$CORES --language=de --typfile=$TYP --style=$STYLE --dempath=${DEM} --demtype=1 gmap Freizeitkarte_$REGION DWINTERSPORT DEXTENDEDROUTING DT36ROUTING DTRIGMARK
+./mt.pl --ram=$RAM --cores=$CORES --language=de --typfile=$TYP --style=$STYLE --dempath=${DEM} --demtype=1 gmapsupp Freizeitkarte_$REGION DWINTERSPORT DEXTENDEDROUTING DT36ROUTING DTRIGMARK
 mv install/Freizeitkarte_${REGION}_de/gmapsupp.img install/Freizeitkarte_${REGION}_de/Freizeitkarte_$REGION.img
-
-exit $?
