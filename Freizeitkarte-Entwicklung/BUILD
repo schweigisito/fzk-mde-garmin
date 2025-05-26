@@ -12,7 +12,7 @@ export REGION=BAYERN
 #export REGION=OBERFRANKEN
 
 # define DEM paths
-export DEM=srtm/dem/hgt/SONN1
+export DEM=srtm/dem/hgt/sonnyy7
 
 # define TYP file
 export TYP=fenix-cyclosm.TYP
