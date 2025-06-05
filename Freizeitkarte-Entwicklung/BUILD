@@ -4,12 +4,15 @@
 #
 # $ bash < BUILD
 
-export REGION=BAYERN
+#export REGION=BAYERN
 #export REGION=ALPS
 #export REGION=NOR
 #export REGION=ESP
 #export REGION=DEU
 #export REGION=OBERFRANKEN
+export REGION=BEL
+#export REGION=FRA
+#export REGION=DNK
 
 # define DEM paths
 export DEM=srtm/dem/hgt/sonnyy7
@@ -35,7 +38,14 @@ export RAM=60000
 ./mt.pl --ram=$RAM --cores=$CORES join Freizeitkarte_$REGION
 ./mt.pl --ram=$RAM --cores=$CORES --language=de split Freizeitkarte_$REGION
 
+# build
 ./mt.pl --ram=$RAM --cores=$CORES --language=de --typfile=$TYP --style=$STYLE --dempath=${DEM} --demtype=1 build Freizeitkarte_$REGION DWINTERSPORT DEXTENDEDROUTING DT36ROUTING DTRIGMARK
+
+# GPS Receiver
 ./mt.pl --ram=$RAM --cores=$CORES --language=de --typfile=$TYP --style=$STYLE --dempath=${DEM} --demtype=1 gmap Freizeitkarte_$REGION DWINTERSPORT DEXTENDEDROUTING DT36ROUTING DTRIGMARK
+
+# BaseCamp
 ./mt.pl --ram=$RAM --cores=$CORES --language=de --typfile=$TYP --style=$STYLE --dempath=${DEM} --demtype=1 gmapsupp Freizeitkarte_$REGION DWINTERSPORT DEXTENDEDROUTING DT36ROUTING DTRIGMARK
+
+# rename GPS Receiver map
 mv install/Freizeitkarte_${REGION}_de/gmapsupp.img install/Freizeitkarte_${REGION}_de/Freizeitkarte_$REGION.img
