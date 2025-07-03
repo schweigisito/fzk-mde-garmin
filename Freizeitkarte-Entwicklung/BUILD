@@ -5,13 +5,14 @@
 # $ bash < BUILD
 
 #export REGION=BAYERN
-#export REGION=ALPS
+export REGION=ALPS
 #export REGION=HRV # Kroatien
 #export REGION=SVN # Slowenien
 #export REGION=NOR
+#export REGION=SWE
 #export REGION=ESP
 #export REGION=DEU
-export REGION=OBERFRANKEN
+#export REGION=OBERFRANKEN
 #export REGION=BEL
 #export REGION=FRA
 #export REGION=DNK
