@@ -4,8 +4,8 @@
 #
 # $ bash < BUILD
 
-#export REGION=BAYERN
-export REGION=ALPS
+export REGION=BAYERN
+#export REGION=ALPS
 #export REGION=HRV # Kroatien
 #export REGION=SVN # Slowenien
 #export REGION=NOR
